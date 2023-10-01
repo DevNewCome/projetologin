@@ -44,7 +44,7 @@ export default function Home() {
             ></input>
             <button onClick={handleLogin} type='submit'>Acessar</button>
         </form>
-        <Link className='button-link' to="/register">Não poussui uma conta? Cadastre-se</Link>
+        <Link className='button-link' to="/register">Não possui uma conta? Cadastre-se</Link>
       </div>
 
     );
